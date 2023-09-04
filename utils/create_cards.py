@@ -1,5 +1,4 @@
 from utils.flashcards import Flashcard
-import random
 
 def create_cards_from_data(data):
     cards = []

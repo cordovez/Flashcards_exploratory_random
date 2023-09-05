@@ -69,6 +69,12 @@ class User:
         self.password_hash= password_hash
         self.stack: list = [] # [FretboardNotes, FretboardTriads] 
     
+    
+fretboard_notes = []
+fretboard_triads = []
+
+notes_card_a = Flashcard("what is the second letter", "b")
+notes_card_a.score =4
 
 
     # intervals increase by x2.5
@@ -76,7 +82,7 @@ class User:
 people = [{"name": "owen", "username": "ofeeney", "password_hash": "xxxxxx"}, 
           {"name": "juan", "username": "cordovez", "password_hash": "yyyyyy"}]
 
-data = [("what is your name", "juan"), ("how old are you", "old"), 
+data = [("what is your name", "juan"), ("what is your dob", "old"), 
          ("where do you live", "paris")]
 
 users = []
@@ -86,12 +92,13 @@ users = []
 
 # for user in users:
 #     print(user.name, user.username, user.password_hash)
-# stack = []
-# for datum in data:
-#     card = Flashcard(datum[0], datum[1])
-#     stack.append(card)
+stack = []
+for datum in data:
+    card = Flashcard(datum[0], datum[1])
+    stack.append(card)
     
-# for card in stack:    
+for card in stack:    
 
-#     print(card.question)
-        
+    print(card.question)
+       
+  

@@ -1,0 +1,3 @@
+23-09-05 1156  This is the first log message
+23-09-05 1156  This is the second log message
+23-09-05 1156  This is the third log message

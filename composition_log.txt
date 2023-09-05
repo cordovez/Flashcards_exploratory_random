@@ -1,0 +1,2 @@
+2023-09-05 13:07 This is the first log message of the composition model
+2023-09-05 13:07 This is the second log message of the composition model
